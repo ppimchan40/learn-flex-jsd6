@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+  color: white;
+  padding: 5px;
+}
+.header {
+  background: blue;
+  height: 64px;
+  display: flex;
+  justify-content: flex-end;
+  /* Sol-1 */
+  align-items: center;
+}
+
+.nav {
+  /* background: wheat; */
+  /* Sol-2 */
+  /* display: flex;
+  align-items: center; */
+}
+
+.nav__list {
+  display: flex;
+  gap: 10px;
+  /* background: red; */
+  /* Sol-3 */
+  /* height: 100%;
+  align-items: center; */
+}
+
+@media (max-width: 768px) {
+  .header {
+    justify-content: center;
+  }
+
+  .nav {
+    /* background: wheat; */
+    flex: 1;
+  }
+
+  .nav__list {
+    justify-content: space-around;
+  }
+}

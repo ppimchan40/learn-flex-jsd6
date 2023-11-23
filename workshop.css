@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  background: wheat;
+  height: 100vh;
+}
+
+.app__header {
+  background: wheat;
+  height: 64px;
+  padding: 15px;
+
+  /* Parent-Flex */
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.app__content {
+  background: white;
+  flex: 1;
+}
+.app__footer {
+  background: wheat;
+  height: 64px;
+}
+
+.app__header__search {
+  flex: 1;
+  padding: 6px;
+}
+
+.app_header__button {
+  padding: 6px;
+}
